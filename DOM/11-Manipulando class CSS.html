@@ -1,31 +1,20 @@
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <style>
-      .highlight {
-        color: blue;
-      }
-    </style>
-  </head>
-  <body>
-    <h1 id="title">Título da página</h1>
-    <button id="change-class">Alterar classe</button>
 
-    <script>
-      // https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    .highlight {
+      color: blue;
+    }
+  </style>
+</head>
 
-      const titleEl = document.querySelector("#title")
+<body>
+  <h1 id="title">Título da página</h1>
+  <button id="change-class">Alterar classe</button>
 
-      const buttonEl = document.querySelector("#change-class")
-      buttonEl.addEventListener("click", () => {
-        // if (titleEl.classList.contains("highlight")) {
-        //   titleEl.classList.remove("highlight")
-        // } else {
-        //   titleEl.classList.add("highlight")
-        // }
+  <script src="11-Manipulando class CSS.js"></script>
 
-        titleEl.classList.toggle("highlight")
-      })
-    </script>
-  </body>
+</body>
+
 </html>
